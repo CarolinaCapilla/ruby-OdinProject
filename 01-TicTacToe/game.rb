@@ -33,7 +33,7 @@ class Game
   private
 
   def game_finish?
-    board.full? ? (show_text('full'); true) : check_win?(player1) || check_win?(player2)
+    board.full? ? show_text('full') : check_win?(player1) || check_win?(player2)
   end
 
   def check_win?(player)

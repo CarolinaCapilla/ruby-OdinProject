@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# top_level_documentation: false
 class Player
   attr_reader :char
   attr_accessor :name, :inputs

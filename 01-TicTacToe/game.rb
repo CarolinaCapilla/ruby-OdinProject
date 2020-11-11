@@ -1,5 +1,7 @@
-require './lib/interface'
+# frozen_string_literal: false
 
+require './lib/interface'
+# top_level_documentation: false
 class Game
   include Interface
   attr_accessor :player1, :player2, :board

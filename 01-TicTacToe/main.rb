@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'colorize' # Need to run 'gem install colorize'
 
 # self customized libary
@@ -5,7 +7,7 @@ require './lib/interface'
 require './lib/board'
 require './lib/player'
 require './lib/game'
-
+# top_level_documentation: false
 class Main
   include Interface
 
